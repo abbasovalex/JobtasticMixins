@@ -8,4 +8,4 @@ __all__ = (
     'AVGTimeRedis',
 )
 
-from .mixins import JobtasticMixinRedisAVGTime
+from .mixins import AVGTimeRedis
