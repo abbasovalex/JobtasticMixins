@@ -1,2 +1,6 @@
 JobtasticMixins
 ===============
+
+Install from Github
+
+

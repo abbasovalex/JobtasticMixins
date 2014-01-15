@@ -129,7 +129,7 @@ setup(
     platforms=['any'],
     author='Abbasov Alexander',
     author_email='abbasovalex@{nospam}gmail.com',
-    packages=['jobtastic-mixins'],
+    packages=['jobtasticmixins'],
     package_data=find_package_data(),
     classifiers=[
         'Development Status :: 3 - Alpha',
