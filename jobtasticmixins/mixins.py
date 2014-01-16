@@ -5,8 +5,9 @@ try:
 except:
     import json
 from time import time
+from datetime import timedelta
 from celery.utils.log import get_task_logger
-from celery.signals import task_postrun, task_failure
+from celery.signals import task_postrun
 from celery.task.control import inspect
 from jobtastic.states import PROGRESS
 from django.conf import settings
@@ -130,22 +131,3 @@ class AVGTimeRedis(object):
                 except Exception as e:
                     logger.debug(e)
                     logger.debug('Redis doesn\'t work 4')
-
-
-@task_failure.connect
-def log_failure(sender, task_id, exception, args, kwargs,
-                traceback, einfo, **kw):
-    """
-    For debug
-    """
-    logger.debug("""[Celery]: \n
-                    Sender: %s \n
-                    Task id: %s \n
-                    Exception: %s \n
-                    args: %s \n
-                    kwargs: %s \n
-                    traceback: %s
-                    einfo: %s
-                    kw: %s \n
-                """ % (sender, task_id, exception, args, kwargs,
-                       traceback, einfo, kw))
