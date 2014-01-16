@@ -17,7 +17,7 @@ Install from Github
 ## Usage
 
 1. You must will add the mixin class as first argument
-2. You should set ```default_avg_time``` in the milliseconds 
+2. You should set ```default_avg_time``` in the seconds 
 3. You must use ```self.update_progress()``` without arguments
 
 ```python
