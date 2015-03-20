@@ -9,7 +9,9 @@ for different kind tasks and saves result into Redis DB
 
 
 ## Install
-Install from Github
+```pip install jobtastic-mixins```
+
+or install from Github
 
 ```pip install https://github.com/abbasovalex/JobtasticMixins/archive/master.zip```
 
