@@ -11,7 +11,7 @@ for different kind tasks and saves result into Redis DB
 ## Install
 Install from Github
 
-```pip install git+https://github.com/abbasovalex/JobtasticMixins```
+```pip install https://github.com/abbasovalex/JobtasticMixins/archive/master.zip```
 
 
 ## Usage
