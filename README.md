@@ -85,3 +85,7 @@ Under the hood:
 2. It counts the tasks and the workers and uses to calculating 
 
 More details you can see into [source](https://github.com/abbasovalex/JobtasticMixins/blob/master/jobtasticmixins/mixins.py)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/abbasovalex/jobtasticmixins/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
